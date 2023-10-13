@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Responsive Video Playlist Tutorial</title>
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+   <link rel="stylesheet" href="vendor/select2/select2.min.css">
+   <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+   <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+   <!-- Fonts -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/style.min.css">
+   <link rel="stylesheet" href="style.css">
+
+      <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+
+</head>
+<body data-spy="scroll" data-target="#navbar">
+    <div id="side-nav" class="sidenav">
+        <a href="javascript:void(0)" id="side-nav-close">&times;</a>
+        
+        <div class="sidenav-content">
+            <p>
+                Kuncen WB1, Wirobrajan 10010, DIY
+            </p>
+            <p>
+                <span class="fs-16 primary-color">(+68) 120034509</span>
+            </p>
+            <p>info@yourdomain.com</p>
+        </div>
+    </div>	
+    <div id="side-search" class="sidenav">
+        <a href="javascript:void(0)" id="side-search-close">&times;</a>
+        <div class="sidenav-content">
+            <form action="">
+    
+                <div class="input-group md-form form-sm form-2 pl-0">
+                  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+                  <div class="input-group-append">
+                    <button class="input-group-text red lighten-3" id="basic-text1">
+                        <i class="fas fa-search text-grey" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+    
+            </form>
+        </div>
+        
+         
+    </div>	<div id="canvas-overlay"></div>
+        <div class="boxed-page">
+            <nav id="navbar-header" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+                WEBSITE
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="lnr lnr-menu"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex justify-content-between">
+                    <li class="nav-item only-desktop">
+                        <a class="nav-link" id="side-nav-open" href="#">
+                            <span class="lnr lnr-menu"></span>
+                        </a>
+                    </li>
+                    <div class="d-flex flex-lg-row flex-column">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>                    
+                    </div>
+                </ul>
+                
+                <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="index.html">
+                    WEBSITE
+                </a>
+                <ul class="navbar-nav d-flex justify-content-between">
+                    <div class="d-flex flex-lg-row flex-column">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="menu.html">Theme Gallery</a>
+                        </li>
+                       
+                    </div>
+                
+                </ul>
+            </div>
+        </div>
+    </nav>	
+    <section id="gtco-menu" class="section-padding">
+        <div class="container">
+            <div class="section-content">
+                <div class="row mb-5">
+                    <div class="col-md-12">
+                        <div class="heading-section text-center">
+                            <span class="subheading">
+                                Specialties
+                            </span>
+                            <h2>
+                                Album
+                            </h2>
+                        </div>  
+                    </div>
+                </div>
+<div class="container">
+
+   <div class="main-video-container">
+      <video src="images/A101.mp4" loop controls class="main-video"></video>
+      <h3 class="main-vid-title">A101</h3>
+   </div>
+
+   <div class="video-list-container">
+
+      <div class="list active">
+         <video src="images/A102.mp4" class="list-video"></video>
+         <h3 class="list-title">A102</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/A103.mp4" class="list-video"></video>
+         <h3 class="list-title">A103</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/A104.mp4" class="list-video"></video>
+         <h3 class="list-title">A104</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/A105.mp4" class="list-video"></video>
+         <h3 class="list-title">A105</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/A106.mp4" class="list-video"></video>
+         <h3 class="list-title">A106</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/A107.mp4" class="list-video"></video>
+         <h3 class="list-title">A107</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/A108.mp4" class="list-video"></video>
+         <h3 class="list-title">A108</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/A109.mp4" class="list-video"></video>
+         <h3 class="list-title">A109</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/A110.mp4" class="list-video"></video>
+         <h3 class="list-title">A110</h3>
+      </div>
+      <div class="list">
+         <video src="images/A111.mp4" class="list-video"></video>
+         <h3 class="list-title">A111</h3>
+      </div>
+      <div class="list">
+         <video src="images/A112.mp4" class="list-video"></video>
+         <h3 class="list-title">A112</h3>
+      </div>
+      <div class="list">
+         <video src="images/A113.mp4" class="list-video"></video>
+         <h3 class="list-title">A113</h3>
+      </div>
+      <div class="list">
+         <video src="images/A114.mp4" class="list-video"></video>
+         <h3 class="list-title">A114</h3>
+      </div>
+      <div class="list">
+         <video src="images/A115.mp4" class="list-video"></video>
+         <h3 class="list-title">A115</h3>
+      </div>
+      <div class="list">
+         <video src="images/A116.mp4" class="list-video"></video>
+         <h3 class="list-title">A116</h3>
+      </div>
+      <div class="list">
+         <video src="images/A117.mp4" class="list-video"></video>
+         <h3 class="list-title">A117</h3>
+      </div>
+      <div class="list">
+         <video src="images/A118.mp4" class="list-video"></video>
+         <h3 class="list-title">A118</h3>
+      </div>
+      <div class="list">
+         <video src="images/A119.mp4" class="list-video"></video>
+         <h3 class="list-title">A119</h3>
+      </div>
+      <div class="list">
+         <video src="images/A120.mp4" class="list-video"></video>
+         <h3 class="list-title">A120</h3>
+      </div>
+      <div class="list">
+         <video src="images/A121.mp4" class="list-video"></video>
+         <h3 class="list-title">A121</h3>
+      </div>
+      <div class="list">
+         <video src="images/A122.mp4" class="list-video"></video>
+         <h3 class="list-title">A122</h3>
+      </div>
+      <div class="list">
+         <video src="images/A123.mp4" class="list-video"></video>
+         <h3 class="list-title">A123</h3>
+      </div>
+      <div class="list">
+         <video src="images/A124.mp4" class="list-video"></video>
+         <h3 class="list-title">A124</h3>
+      </div>
+      <div class="list">
+         <video src="images/A125.mp4" class="list-video"></video>
+         <h3 class="list-title">A125</h3>
+      </div>
+      <div class="list">
+         <video src="images/A126.mp4" class="list-video"></video>
+         <h3 class="list-title">A126</h3>
+      </div>
+      <div class="list">
+         <video src="images/A127.mp4" class="list-video"></video>
+         <h3 class="list-title">A127</h3>
+      </div>
+      <div class="list">
+         <video src="images/A128.mp4" class="list-video"></video>
+         <h3 class="list-title">A128</h3>
+      </div>
+      <div class="list">
+         <video src="images/A129.mp4" class="list-video"></video>
+         <h3 class="list-title">A129</h3>
+      </div>
+      <div class="list">
+         <video src="images/A130.mp4" class="list-video"></video>
+         <h3 class="list-title">A130</h3>
+      </div>
+      <div class="list">
+         <video src="images/A131.mp4" class="list-video"></video>
+         <h3 class="list-title">A131</h3>
+      </div>
+      <div class="list">
+         <video src="images/A132.mp4" class="list-video"></video>
+         <h3 class="list-title">A132</h3>
+      </div>
+      <div class="list">
+         <video src="images/A133.mp4" class="list-video"></video>
+         <h3 class="list-title">A133</h3>
+      </div>
+     
+   </div>
+
+</div>
+</div>
+</div>
+</section>
+
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset" style="margin-left: 10px;">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset" style="margin-left: 10px;">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset" style="margin-left: 10px;">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset" style="margin-left: 10px;">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset" style="margin-left: 10px;">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset" style="margin-left: 10px;">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" style="    padding-left: 70px;
+            padding-right: 70px;
+            font-family: 'Josefin Sans';
+            font-weight: 700;
+            color: #f34949;">
+                WEBSITE
+            </h6>
+            <p style="text-align: justify;">
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Mobile App</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Web App</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p style="
+            text-align: left;
+        "><i class="fas fa-home me-3" ></i>Ahemdabad</p>
+            <p style="
+            text-align: left;
+        "><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p style="
+            text-align: left;
+        "><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  </footer>	
+
+	<!-- External JS -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
